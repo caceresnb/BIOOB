@@ -56,9 +56,7 @@ footer {
 
 .main {
   background-color: rgb(249, 252, 251); }
-main {
-  margin-top: 10vw;
-}
+
 .notmargin {
   margin: 0px;
   padding: 0px; }
@@ -141,7 +139,6 @@ main {
   justify-content: center;
   position: fixed;
   align-items: baseline;
-  margin-top: 1vw;
   margin-bottom: 3vw;
   padding: 10px 80px 10px 80px; }
 
