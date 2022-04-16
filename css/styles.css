@@ -36,6 +36,64 @@
   margin: 0 auto;
 }
 
+/***********TASHI**********/
+footer {
+  text-align: left;
+  flex-wrap: nowrap;
+  font-family:'Roboto';
+  padding: 50px 0px 50px 0px;
+ }
+.notmargin {
+  margin: 0px;
+  padding: 0px; }
+.footer1 {
+  background-color: #A77D6E;
+  padding: 20px;
+}
+.margin-footer1 {
+    margin-left: 450px;
+    margin-right: 130px; }
+.frase {
+    font-size: 1.5em;
+    color:white;
+}
+.frase2 {
+  font-size: 1.5em;
+  margin-left: 220px;
+  color:white;
+}
+.colaborar {
+   font-size: 2em;
+   color:white;
+}
+.footer2 {
+    background-color: #694E4A;
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+    line-height: 3px;
+}
+.margin-footer2 {
+  margin-left: 108px;
+  margin-right: 130px; }
+.footTitulo {
+  padding-bottom: 6px;
+}
+.footer3 {
+  background-color: #70423F;
+  padding-top: 25px;
+  height: 12em;
+}
+.logoFooter {
+  width: 15%;
+}
+.copy {
+  color: white;
+  margin-top: 3rem;
+  font-size: smaller;
+  text-align: center;
+}
+
 @media screen and (min-width: 450px) {
   .overlay img {
     width: 450px;
