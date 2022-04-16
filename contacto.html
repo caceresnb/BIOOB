@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- TITTLE -->
-    <title>Vinculación</title>
+    <title>Contacto</title>
 
     <!-- META-DESCRIPTIONS -->
     <meta
@@ -89,13 +89,16 @@
       </div>
     </nav>
     <!-- NAVBAR MOBILE Y DESKTOP -->
-
-        <main>
-            <center>
-            <h4>Home<strong>&nbsp;&gt; </strong>Contacto</h4>
-            </center>
+    <div class="headSection">
+      <center>
+        <img class="logoSection" src="img/BIOOB-logo.png" alt="logo-bioob">
+      </center>
+    </div>
+  </head>
+ <main>
             <div class="container">
-                <form id="idForm">
+                <form class="form">
+                    <p class="tituloForm">Contáctanos</p>
                     <div class="mb-5">
                       <label for="nombre" class="form-label">Nombre</label>
                       <input type="text" class="form-control" id="nombre">
@@ -106,7 +109,7 @@
                     </div>
                     
                     <div class="mb-5">
-                        <label for="mail" class="form-label">Mail</label>
+                        <label for="mail" class="form-label">Correo Electrónico</label>
                         <input type="text" class="form-control" id="mail">
                     </div>
                     <div class="mb-5">
@@ -114,7 +117,7 @@
                         <input type="text" class="form-control" id="mensaje">
                     </div>
                     
-                    <button type="submit" class="btn btn-primary ">Enviar</button>
+                    <button type="submit" class="btn btnForm ">Enviar</button>
                   </form>
                   <br>
                   <br>
@@ -122,7 +125,7 @@
         </main>
        <!-- footer -->
 
-       <footer>
+       <footer class="footSection">
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 notmargin" data-aos="fade-up">
@@ -169,6 +172,7 @@
         AOS.init({ once: "true" });
       </script>
       <!-- LIBRERIAS SCRIPT -->
+        
     </body>
   </html>
 
