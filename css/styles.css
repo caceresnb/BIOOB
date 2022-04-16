@@ -35,7 +35,6 @@
   max-width: 350px;
   margin: 0 auto;
 }
-
 /***********TASHI**********/
 footer {
   text-align: left;
@@ -47,8 +46,10 @@ footer {
   margin: 0px;
   padding: 0px; }
 .footer1 {
-  background-color: #A77D6E;
   padding: 20px;
+}
+.foot1Color {
+  background-color: #A77D6E;
 }
 .margin-footer1 {
     margin-left: 450px;
@@ -67,11 +68,13 @@ footer {
    color:white;
 }
 .footer2 {
-    background-color: #694E4A;
     padding: 20px;
     color: white;
     font-size: 16px;
     line-height: 3px;
+}
+.foot2Color {
+  background-color: #694E4A;
 }
 .margin-footer2 {
   margin-left: 108px;
@@ -80,9 +83,11 @@ footer {
   padding-bottom: 6px;
 }
 .footer3 {
-  background-color: #70423F;
   padding-top: 25px;
   height: 12em;
+}
+.foot3Color {
+  background-color: #70423F;
 }
 .logoFooter {
   width: 15%;
@@ -93,6 +98,10 @@ footer {
   font-size: smaller;
   text-align: center;
 }
+.footSection {
+  background-color: #4E3A3B;
+}
+
 
 @media screen and (min-width: 450px) {
   .overlay img {
