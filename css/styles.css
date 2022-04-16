@@ -40,6 +40,73 @@
   max-width: 350px;
   margin: 0 auto;
 }
+/***********TASHI**********/
+footer {
+  text-align: left;
+  flex-wrap: nowrap;
+  font-family:'Roboto';
+  padding: 50px 0px 50px 0px;
+ }
+.notmargin {
+  margin: 0px;
+  padding: 0px; }
+.footer1 {
+  padding: 20px;
+}
+.foot1Color {
+  background-color: #A77D6E;
+}
+.margin-footer1 {
+    margin-left: 450px;
+    margin-right: 130px; }
+.frase {
+    font-size: 1.5em;
+    color:white;
+}
+.frase2 {
+  font-size: 1.5em;
+  margin-left: 220px;
+  color:white;
+}
+.colaborar {
+   font-size: 2em;
+   color:white;
+}
+.footer2 {
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+    line-height: 3px;
+}
+.foot2Color {
+  background-color: #694E4A;
+}
+.margin-footer2 {
+  margin-left: 108px;
+  margin-right: 130px; }
+.footTitulo {
+  padding-bottom: 6px;
+}
+.footer3 {
+  padding-top: 25px;
+  height: 12em;
+}
+.foot3Color {
+  background-color: #70423F;
+}
+.logoFooter {
+  width: 15%;
+}
+.copy {
+  color: white;
+  margin-top: 3rem;
+  font-size: smaller;
+  text-align: center;
+}
+.footSection {
+  background-color: #4E3A3B;
+}
+
 
 .services {
   background-image: url("../img/capacitacion-home.jpg");
