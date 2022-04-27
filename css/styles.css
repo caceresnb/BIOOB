@@ -40,62 +40,60 @@
   max-width: 350px;
   margin: 0 auto;
 }
+
 /***********TASHI**********/
 footer {
   text-align: left;
   flex-wrap: nowrap;
-  font-family: "Roboto";
+  font-family:'Roboto';
   padding: 50px 0px 50px 0px;
-}
+ }
 .notmargin {
   margin: 0px;
-  padding: 0px;
-}
+  padding: 0px; }
 .footer1 {
   padding: 20px;
 }
 .foot1Color {
-  background-color: #a77d6e;
+  background-color: #A77D6E;
 }
 .margin-footer1 {
-  margin-left: 450px;
-  margin-right: 130px;
-}
+    margin-left: 450px;
+    margin-right: 130px; }
 .frase {
-  font-size: 1.5em;
-  color: white;
+    font-size: 1.5em;
+    color:white;
 }
 .frase2 {
   font-size: 1.5em;
   margin-left: 220px;
-  color: white;
+  color:white;
 }
 .colaborar {
-  font-size: 2em;
-  color: white;
+   font-size: 2em;
+   color:white;
 }
 .footer2 {
-  padding: 20px;
-  color: white;
-  font-size: 16px;
-  line-height: 3px;
+    padding: 60px;
+    color: white;
+    font-size: 16px;
+    line-height: 3px;
 }
 .foot2Color {
-  background-color: #694e4a;
+  background-color: #5F4B48;
 }
 .margin-footer2 {
   margin-left: 108px;
-  margin-right: 130px;
-}
+  margin-right: 130px; }
 .footTitulo {
   padding-bottom: 6px;
 }
 .footer3 {
-  padding-top: 25px;
+  padding: 10px;
   height: 12em;
 }
 .foot3Color {
-  background-color: #70423f;
+  background-color: #4C3B3B;
 }
 .logoFooter {
   width: 15%;
@@ -106,45 +104,29 @@ footer {
   font-size: smaller;
   text-align: center;
 }
-.footSection {
-  background-color: #4e3a3b;
+.form{
+  width: 70%;
+  margin-left: 15%;
+  padding: 3em;
 }
-/* *******TASHI****** */
-
-.services {
-  background-image: url("../img/capacitacion-home.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 550px;
+.tituloForm {
+  font-size: 30px;
+  text-align: center;
+  color: #4E3A3B;
+  padding: 20px;
 }
-.services div {
-  line-height: 90px;
+.btnForm {
+  background-color: #4E3C3C;
+  color: white;
 }
-.services p {
-  display: inline-block;
-  font-size: 2.3rem;
-  font-weight: 900;
+.logoSection {
+  position: center;
+  width: 50%;
+  padding: 20px;
 }
-.services img {
-  width: 90px;
-  height: 90px;
-  object-fit: contain;
-  background-color: orange;
-  border-radius: 50%;
+.headSection {
+  background-color:#4E3C3C;
 }
-
-.description {
-  padding: 2.5rem;
-}
-
-.text {
-  font-size: 0.9rem;
-  margin-bottom: 0;
-  max-width: 680px;
-  margin: 0 auto;
-}
-
 @media screen and (min-width: 450px) {
   .overlay img {
     width: 450px;
@@ -155,10 +137,6 @@ footer {
 @media screen and (min-width: 600px) {
   .bioob-objetivo {
     padding: 4.5rem;
-    padding-bottom: 5.5rem;
-  }
-  .text {
-    font-size: 1rem;
   }
 }
 
@@ -166,9 +144,6 @@ footer {
   .overlay img {
     width: 550px;
     height: 450px;
-  }
-  .services p {
-    font-size: 3rem;
   }
 }
 
@@ -183,11 +158,5 @@ footer {
   .overlay img {
     width: 600;
     height: 500px;
-  }
-  .services {
-    height: 90vh;
-  }
-  .text {
-    font-size: 1.1rem;
   }
 }
