@@ -120,6 +120,7 @@
   font-weight: 400;
 }
 
+
 /***********TASHI**********/
 footer {
   text-align: left;
@@ -160,28 +161,30 @@ footer {
   line-height: 3px;
 }
 .foot2Color {
-  background-color: #5f4b48;
+  background-color: #694E4A;
 }
 .margin-footer2 {
   margin-left: 108px;
   margin-right: 130px;
 }
 .footTitulo {
-  padding-bottom: 6px;
+  padding-bottom: 3px;
 }
 .footer3 {
-  padding: 10px;
+  padding-top: 8px;
+  padding-bottom: 1px;
   height: 12em;
 }
 .foot3Color {
-  background-color: #4c3b3b;
+  background-color: #70423F;
 }
 .logoFooter {
   width: 15%;
+  padding-bottom: 1px;
 }
 .copy {
   color: white;
-  margin-top: 3rem;
+  margin-top: 3em;
   font-size: smaller;
   text-align: center;
 }
