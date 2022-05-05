@@ -158,14 +158,13 @@ footer {
   padding: 60px;
   color: white;
   font-size: 16px;
-  line-height: 3px;
+  line-height: 14px;
 }
 .foot2Color {
   background-color: #694E4A;
 }
 .margin-footer2 {
-  margin-left: 108px;
-  margin-right: 130px;
+  margin-left: 4%;
 }
 .footTitulo {
   padding-bottom: 3px;
@@ -181,6 +180,7 @@ footer {
 .logoFooter {
   width: 15%;
   padding-bottom: 1px;
+  margin-left: 1%;
 }
 .copy {
   color: white;
@@ -197,12 +197,13 @@ footer {
   font-size: 30px;
   text-align: center;
   color: #4e3a3b;
-  padding: 20px;
+  padding:3%;
 }
 .btnForm {
   background-color: #4e3c3c;
   color: white;
 }
+/*****************SECCIONES*********************/
 .logoSection {
   position: center;
   width: 50%;
@@ -210,6 +211,22 @@ footer {
 }
 .headSection {
   background-color: #4e3c3c;
+}
+.seccion {
+  align-items: center;
+  width: fit-content;
+}
+.seccion p {
+  width: 90%;
+  margin: 5%;
+}
+.seccionImg {
+  width: 100%;
+}
+.imgSeccion{
+  width: 31%;
+  height:30%;
+  margin-right: 2%;
 }
 @media screen and (min-width: 450px) {
   .overlay img {
