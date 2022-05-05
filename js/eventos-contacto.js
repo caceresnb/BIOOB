@@ -25,6 +25,6 @@ idForm.addEventListener('submit', (e) => {
     
     idForm.reset();
     console.log(personas);
-    alert ("Gracias por contactarnos, nos comunicaremos a la brevedad! Voilá");
+    alert ("Gracias por contactarnos, nos comunicaremos a la brevedad!");
 
 })
